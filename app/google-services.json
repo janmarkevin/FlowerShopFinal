@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "957122995991",
+    "project_id": "flowershop-edd99",
+    "storage_bucket": "flowershop-edd99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957122995991:android:bd557164ead9dc6582b952",
+        "android_client_info": {
+          "package_name": "com.example.flowershop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957122995991-tdmnr9qlg5gcnqsg3kk2rr5p8q5i9nse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUBFksIRa54YsQt3t6nmIk6eB8bngl9Bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957122995991-tdmnr9qlg5gcnqsg3kk2rr5p8q5i9nse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
