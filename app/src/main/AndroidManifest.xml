@@ -10,11 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FlowerShop">
         <activity
-            android:name=".HomeActivity"
-            android:exported="true"
-            android:label="@string/title_activity_home"
-            android:theme="@style/Theme.FlowerShop.NoActionBar" />
-        <activity
             android:name=".AdminCategoryActivity"
             android:exported="true" />
         <activity

@@ -138,7 +138,7 @@ public class LoginActivity extends AppCompatActivity {
                                 Toast.makeText(LoginActivity.this, "Welcome Admin", Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
 
-                                Intent intent = new Intent (LoginActivity.this, HomeActivity.class);
+                                Intent intent = new Intent (LoginActivity.this, AdminCategoryActivity.class);
                                 startActivity(intent);
                             }
                             else if (parentDbName.equals("Users"))
@@ -146,8 +146,9 @@ public class LoginActivity extends AppCompatActivity {
                                 Toast.makeText(LoginActivity.this, "Logged in Successfully", Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
 
-                                Intent intent = new Intent (LoginActivity.this, HomeActivity.class);
-                                startActivity(intent);
+//                                redirect to UserHomeActivity
+//                                Intent intent = new Intent (LoginActivity.this, HomeActivity.class);
+//                                startActivity(intent);
                             }
                         }
                         else
